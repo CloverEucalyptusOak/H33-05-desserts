@@ -24,7 +24,9 @@
             <p><input type="submit" value="Strawberry" id="strawberry"></p>
         </div>
 
-
+        <div class="content">
+            <iframe class="info" src="text.txt" width="80%" height="400px"></iframe>
+        </div>
     </div>
 
 
@@ -32,7 +34,9 @@
 </div>
 
     <script>
-
+        $("#vanilla").click(function(){
+            $(".info").attr("src", "category_01/vanilla/vanilla.txt");
+        });
 
         
     </script>
